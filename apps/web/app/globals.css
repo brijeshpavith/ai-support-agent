@@ -1,0 +1,14 @@
+:root { --bg: #0b1020; --fg: #eef2ff; --muted:#9aa3b2; --card:#111731; --accent:#7c93ff; }
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+body { margin: 0; font-family: ui-sans-serif, system-ui, -apple-system; background: var(--bg); color: var(--fg); }
+.container { max-width: 960px; margin: 0 auto; padding: 24px; }
+.card { background: var(--card); border: 1px solid #1b2347; border-radius: 16px; padding: 16px; }
+.btn { background: var(--accent); color: #05060d; border: 0; border-radius: 999px; padding: 10px 16px; cursor: pointer; font-weight: 600; }
+.btn:disabled { opacity: .55; cursor: not-allowed; }
+.input { width: 100%; border-radius: 12px; border: 1px solid #222a55; background: #0f1533; color: var(--fg); padding: 12px 14px; }
+.row { display: flex; gap: 12px; align-items: center; }
+.stack { display: grid; gap: 12px; }
+.chatbox { height: 60vh; overflow: auto; padding: 12px; border: 1px solid #222a55; border-radius: 12px; background: #0d1431; }
+.small { color: var(--muted); font-size: 12px; }
+.badge { font-size: 12px; padding: 2px 6px; border: 1px solid #2a356f; border-radius: 8px; color: #9fb0ff; }
