@@ -1,1 +1,1 @@
-import { embed } from "./embeddings
+import { embed } from "./embeddings";
